@@ -1,0 +1,18 @@
+3. creation of new table named employee_new
+Create a table named employee_new as follows: employee_id (int), first_name (varchar), last_name (varchar), email (varchar), phone_number (varchar), hire_date date, job_id (int), salary (int) and maximum 999999, commission_pct float, manager_id (int), department_id (int)
+
+answer:
+
+CREATE TABLE employee_new (
+    employee_id INT,
+    first_name VARCHAR(20),
+    last_name VARCHAR(20),
+    email VARCHAR(50),
+    phone_number VARCHAR(20),
+    hire_date DATE,
+    job_id INT,
+    salary INT CHECK (salary <= 999999),
+    commission_pct FLOAT,
+    manager_id INT,
+    department_id INT
+);

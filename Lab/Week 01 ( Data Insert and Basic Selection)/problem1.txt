@@ -1,0 +1,9 @@
+1. Creation of a New table named region_new
+There are many regions in the world. Each region has an identifier called region_id and a name called region_name. The data type for region id is integer and region_name is varchar. You have to create a table as per above requirements.
+
+answer:
+
+create table region_new(
+region_id int(10),
+region_name varchar(30)
+);

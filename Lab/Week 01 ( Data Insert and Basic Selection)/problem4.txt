@@ -1,0 +1,7 @@
+
+4. Insertion of data into table named regions
+You have to write insert statement to insert the following data into the table regions. Region Id: 1001, Region name: Middle East
+
+
+insert into regions (region_id, region_name)
+values ('1001', 'Middle East');
