@@ -1,8 +1,0 @@
-
-5. Slection of all information from single table
-Find all information of regions and observe the rigions data.
-
-answer
-
-select *
-from regions;

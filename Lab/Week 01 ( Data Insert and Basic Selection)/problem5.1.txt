@@ -1,5 +1,0 @@
-Practice: 5.1
-Find all information about the countries and study the data. How many records in the table? Why region_id in this table?
-
-select *
-from countries;
